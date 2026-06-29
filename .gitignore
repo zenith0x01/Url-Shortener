@@ -1,0 +1,22 @@
+# Environment variables — NEVER commit this
+.env
+
+# Virtual environment — too large, others create their own
+.fvenv/
+venv/
+env/
+
+# Python cache files — auto-generated, not needed
+__pycache__/
+*.pyc
+*.pyo
+
+# Database files
+*.db
+
+# VS Code settings
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
