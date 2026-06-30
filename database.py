@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, DeclarativeBase
-
+from dotenv import load_dotenv
 # This is the database file that will be created in your project folder
 # SQLite is perfect for local development — no setup needed
 import os
